@@ -19,7 +19,7 @@ const mapZoom = {
 }
 const map = new maplibregl.Map({
     container: 'map', // container ID
-    style: 'https://api.maptiler.com/maps/satellite/style.json?key=aRyJfnj25CKYN2noi9Wt', // Your style URL
+    style: 'https://api.maptiler.com/maps/satellite/style.json', // Your style URL
     center: [mapZoom.lon, mapZoom.lat], // Starting position [lng, lat]
     zoom: mapZoom.zoom // Starting zoom level
 });
